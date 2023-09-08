@@ -9,7 +9,7 @@ int main()
 	//setlocale(LC_ALL, ".1251");
 
 
-	
+
 
 
 	/*cout << "\tHello World\n";
@@ -130,5 +130,26 @@ int main()
 
 	cout << "Result :: " << first << " / " << second << " = " << (float)first / second << endl;
 	system("pause");*/
+
+
+	/*int year;
+	cout << "Enter year :: ";
+	cin >> year;
+
+	int isLeap = (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0);
+
+	cout << "In " << year << " year " << (365 + isLeap) << endl;*/
+
+	/*int uah = 12, coin = 350;
+
+	uah = uah + (coin / 100);
+	coin = coin % 100;
+
+	cout << uah << " uah " << coin << " coin" << endl;*/
+
+
+
+
+
 }
 
