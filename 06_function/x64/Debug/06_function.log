@@ -1,0 +1,3 @@
+﻿  06_function.cpp
+C:\Users\dev\source\repos\01_intro\06_function\06_function.cpp(7,5): error C2084: function 'int sum(int,int)' already has a body
+C:\Users\dev\source\repos\01_intro\06_function\06_function.cpp(4,5): message : see previous definition of 'sum'
