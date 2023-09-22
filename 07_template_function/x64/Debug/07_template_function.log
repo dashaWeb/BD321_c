@@ -1,0 +1,6 @@
+﻿  07_template_function.cpp
+C:\Users\dev\source\repos\01_intro\07_template_function\07_template_function.cpp(86,9): warning C4101: 'arr_double': unreferenced local variable
+C:\Users\dev\source\repos\01_intro\07_template_function\07_template_function.cpp(87,7): warning C4101: 'arr_bool': unreferenced local variable
+C:\Users\dev\source\repos\01_intro\07_template_function\07_template_function.cpp(84,6): warning C4101: 'arr_int': unreferenced local variable
+C:\Users\dev\source\repos\01_intro\07_template_function\07_template_function.cpp(85,7): warning C4101: 'arr_char': unreferenced local variable
+  07_template_function.vcxproj -> C:\Users\dev\source\repos\01_intro\x64\Debug\07_template_function.exe

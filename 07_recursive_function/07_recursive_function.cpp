@@ -31,6 +31,15 @@ void draw(int counter)
 	draw(counter - 1);
 	cout << ")";
 }
+int Pow(int number, int power) {
+	if (power == 1) {
+		return number;
+	}
+	if (power == 0) {
+		return 1;
+	}
+	return number * Pow(number, power - 1);
+}
 int main()
 {
    // 5! = 5 * 4!
@@ -42,5 +51,15 @@ int main()
 	cout << "Factorial :: " << factor(5) << endl;
 	cout << "Max digit :: " << maxDigit(25986) << endl;
 	draw(5);
+	cout << endl;
+	cout << Pow(2, 4) << endl;
 	// (((( ))))
+	/*
+	2^4 --> 2 * 2^3
+	2^3 --> 2 * 2^2
+	2^2 --> 2 * 2^1
+	2^1 --> 2
+	2^0 --> 1
+
+	*/
 }
