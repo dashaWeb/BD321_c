@@ -1,0 +1,4 @@
+﻿  09_helper_arra_spiral.cpp
+C:\Users\dev\source\repos\01_intro\09_helper_arra_spiral\09_helper_arra_spiral.cpp(17,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\dev\source\repos\01_intro\09_helper_arra_spiral\09_helper_arra_spiral.cpp(49,25): message : see reference to function template instantiation 'void fillSpiral<3>(int [][3],size_t)' being compiled
+  09_helper_arra_spiral.vcxproj -> C:\Users\dev\source\repos\01_intro\x64\Debug\09_helper_arra_spiral.exe
