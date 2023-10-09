@@ -98,7 +98,7 @@ void popFront(int*& arr, int& size) {
     remove(arr, size, 0);
 }
 //Видалення елемента в кінці
-void popFront(int*& arr, int& size) {
+void popBack(int*& arr, int& size) {
     remove(arr, size, size-1);
 }
 

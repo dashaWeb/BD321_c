@@ -1,0 +1,4 @@
+﻿  12_helperHome.cpp
+C:\Users\dev\source\repos\01_intro\12_helperHome\12_helperHome.cpp(51,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\dev\source\repos\01_intro\12_helperHome\12_helperHome.cpp(62,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  12_helperHome.vcxproj -> C:\Users\dev\source\repos\01_intro\x64\Debug\12_helperHome.exe

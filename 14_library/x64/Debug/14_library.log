@@ -1,0 +1,5 @@
+﻿  14_library.cpp
+  library.cpp
+C:\Users\dev\source\repos\01_intro\14_library\library.cpp(45,12): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  14_library.vcxproj -> C:\Users\dev\source\repos\01_intro\x64\Debug\14_library.exe
