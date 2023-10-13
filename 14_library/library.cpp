@@ -79,3 +79,23 @@ void sortByName(Book* library, int left, int right)
 		sortByName(library, index + 1, right);
 	}
 }
+
+void insert(Book*& arr, int& size, int index, Book value)
+{
+	if (index < 0 || index > size) {
+		cout << "Error index" << endl;
+		return;
+	}
+	Book* tmp = new Book[size + 1];
+	for (size_t i = 0; i < size; i++)
+	{
+		if (i < index)
+			tmp[i] = arr[i];
+		else
+			tmp[i + 1] = arr[i];
+	}
+	tmp[index] = value;
+	delete[]arr;
+	arr = tmp;
+	size++;
+}

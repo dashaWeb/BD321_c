@@ -21,3 +21,4 @@ void editBook(Book& book);
 char* toLowerCase(char* line);
 int findByAuthor(Book* library, int size, char* author, int start = 0);
 void sortByName(Book* library, int left, int right);
+void insert(Book*& arr, int& size, int index, Book value);

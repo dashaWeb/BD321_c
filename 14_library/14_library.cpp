@@ -33,5 +33,8 @@ int main()
 	cout << "\n\n=====================================\n\n";
 	sortByName(library, 0, size - 1);
 	printBooks(library, size);
-
+	Book new_book;
+	editBook(new_book);
+	insert(library, size, size, new_book);
+	printBooks(library, size);
 }
